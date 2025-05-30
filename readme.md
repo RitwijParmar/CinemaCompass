@@ -1,3 +1,8 @@
+
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sql&logoColor=white)
+![PL/SQL](https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
 ## CinemaCompass
 
 CinemaCompass is a comprehensive database project designed to streamline the process of finding movie showtimes, booking tickets, and getting relevant travel information. It addresses the challenges of managing dynamic showtime data, user-specific travel paths, and theater amenities by leveraging a robust relational database. This system provides an all-in-one solution for moviegoers and theater administrators, ensuring accurate, real-time information and an improved user experience.
