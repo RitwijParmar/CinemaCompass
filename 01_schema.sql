@@ -90,4 +90,4 @@ ALTER TABLE CastMember ADD FOREIGN KEY (MovieID) REFERENCES Movies(IMDB_ID);
 ALTER TABLE Showtimes ADD FOREIGN KEY (TheaterName) REFERENCES Theaters(TheaterName);
 ALTER TABLE Showtimes ADD FOREIGN KEY (MovieID) REFERENCES Movies(IMDB_ID);
 ALTER TABLE Pricing ADD FOREIGN KEY (ShowtimeID) REFERENCES Showtimes(ShowtimeID);
-ALTER TABLE Bookings ADD FOREIGN KEY (ShowtimeID) REFERENCES Showtimes(ShowtimeID);
+ALTER TABLE Bookings ADD FOREIGN KEY (ShowtimeID) REFERENCES Showtimes(ShowtimeID);-- Foreign keys will enforce relational integrity --
