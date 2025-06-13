@@ -15,4 +15,4 @@ $$ LANGUAGE plpgsql;
 CREATE TRIGGER before_travel_path_insert
 BEFORE INSERT ON TravelPaths
 FOR EACH ROW
-EXECUTE FUNCTION check_travel_distance();
+EXECUTE FUNCTION check_travel_distance();# This trigger ensures valid data before insertion
