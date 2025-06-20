@@ -36,4 +36,4 @@ LIMIT 10;
 -- Example of an INSERT statement that returns the new ShowtimeID
 INSERT INTO "Showtimes" ("TheaterName", "Movie", "StartTime", "ScreenNumber", "ShowtimeID")
 VALUES ('AMC 34th Street 14', 'Mickey 17 (2025)', '7:10 pm', 9, DEFAULT)
-RETURNING "ShowtimeID" as newID;
+RETURNING "ShowtimeID" as newID;# These queries demonstrate common use cases
