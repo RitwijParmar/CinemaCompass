@@ -89,3 +89,5 @@ You can easily add new showtimes to the database. The system can be configured t
 INSERT INTO "Showtimes" ("TheaterName", "Movie", "StartTime", "ScreenNumber", "ShowtimeID")
 VALUES ('AMC 34th Street 14', 'Mickey 17 (2025)', '7:10 pm', 9, DEFAULT)
 RETURNING "ShowtimeID" as newID;
+
+
