@@ -1,4 +1,4 @@
-]# CinemaCompass
+## CinemaCompass
 
 CinemaCompass is a comprehensive database project designed to streamline the process of finding movie showtimes, booking tickets, and getting relevant travel information. It addresses the challenges of managing dynamic showtime data, user-specific travel paths, and theater amenities by leveraging a robust relational database. This system provides an all-in-one solution for moviegoers and theater administrators, ensuring accurate, real-time information and an improved user experience.
 
